@@ -6,6 +6,6 @@ public class ExcludeMe {
 
     @Test
     public void excludeMe(){
-        System.out.println("Exclude me");
+        System.out.println("Exclude me test");
     }
 }

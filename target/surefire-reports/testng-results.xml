@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-28T19:19:14 CEST" name="Regression" finished-at="2022-09-28T19:19:15 CEST" duration-ms="199">
+  <suite started-at="2022-10-01T15:04:04 CEST" name="Regression" finished-at="2022-10-01T15:04:09 CEST" duration-ms="5580">
     <groups>
     </groups>
-    <test started-at="2022-09-28T19:19:14 CEST" name="Regression test" finished-at="2022-09-28T19:19:15 CEST" duration-ms="199">
-      <class name="healthCheck.IncludeMe">
-        <test-method signature="includeMe()[pri:0, instance:healthCheck.IncludeMe@18388a3c]" started-at="2022-09-28T19:19:14 CEST" name="includeMe" finished-at="2022-09-28T19:19:14 CEST" duration-ms="60" status="PASS">
+    <test started-at="2022-10-01T15:04:04 CEST" name="Regression test" finished-at="2022-10-01T15:04:09 CEST" duration-ms="5580">
+      <class name="unit.Logo">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:unit.Logo@a20b94b]" started-at="2022-10-01T15:04:08 CEST" name="startTest" finished-at="2022-10-01T15:04:09 CEST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- includeMe -->
-      </class> <!-- healthCheck.IncludeMe -->
+        </test-method> <!-- startTest -->
+        <test-method signature="logoUrl()[pri:0, instance:unit.Logo@a20b94b]" started-at="2022-10-01T15:04:09 CEST" name="logoUrl" finished-at="2022-10-01T15:04:09 CEST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoUrl -->
+        <test-method signature="validateLogoRedirection()[pri:0, instance:unit.Logo@a20b94b]" started-at="2022-10-01T15:04:09 CEST" name="validateLogoRedirection" finished-at="2022-10-01T15:04:09 CEST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoRedirection -->
+      </class> <!-- unit.Logo -->
+      <class name="ui.HeaderUiTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:ui.HeaderUiTest@610df783]" started-at="2022-10-01T15:04:04 CEST" name="start" finished-at="2022-10-01T15:04:08 CEST" duration-ms="3835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="logoIsDisplayed()[pri:0, instance:ui.HeaderUiTest@610df783]" started-at="2022-10-01T15:04:08 CEST" name="logoIsDisplayed" finished-at="2022-10-01T15:04:08 CEST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoIsDisplayed -->
+        <test-method signature="miniCartButtonIsDisplayed()[pri:0, instance:ui.HeaderUiTest@610df783]" started-at="2022-10-01T15:04:08 CEST" name="miniCartButtonIsDisplayed" finished-at="2022-10-01T15:04:08 CEST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- miniCartButtonIsDisplayed -->
+        <test-method signature="searchFieldIsDisplayed()[pri:0, instance:ui.HeaderUiTest@610df783]" started-at="2022-10-01T15:04:08 CEST" name="searchFieldIsDisplayed" finished-at="2022-10-01T15:04:08 CEST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFieldIsDisplayed -->
+        <test-method signature="storeSelectorIsDisplayed()[pri:0, instance:ui.HeaderUiTest@610df783]" started-at="2022-10-01T15:04:08 CEST" name="storeSelectorIsDisplayed" finished-at="2022-10-01T15:04:08 CEST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeSelectorIsDisplayed -->
+        <test-method signature="userAccountButtonIsDisplayed()[pri:0, instance:ui.HeaderUiTest@610df783]" started-at="2022-10-01T15:04:08 CEST" name="userAccountButtonIsDisplayed" finished-at="2022-10-01T15:04:08 CEST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAccountButtonIsDisplayed -->
+      </class> <!-- ui.HeaderUiTest -->
     </test> <!-- Regression test -->
   </suite> <!-- Regression -->
 </testng-results>

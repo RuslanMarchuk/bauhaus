@@ -2,7 +2,8 @@
 <suite name="Regression">
     <test name="Regression test">
         <classes>
-            <class name="healthCheck.IncludeMe"/>
+            <class name="ui.HeaderUiTest"/>
+            <class name="unit.Logo"/>
         </classes>
     </test>
 </suite>

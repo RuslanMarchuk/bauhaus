@@ -1,2 +1,4 @@
 healthCheck\IncludeMe.class
+ui\HeaderUiTest.class
+unit\Logo.class
 healthCheck\ExcludeMe.class

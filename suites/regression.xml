@@ -2,8 +2,8 @@
 <suite name="Regression">
     <test name="Regression test">
         <classes>
-            <class name="ui.HeaderUiTest"/>
-            <class name="unit.Logo"/>
+            <class name="ui.PageHeaderUiTest"/>
+            <class name="ui.LogoUiTest"/>
         </classes>
     </test>
 </suite>

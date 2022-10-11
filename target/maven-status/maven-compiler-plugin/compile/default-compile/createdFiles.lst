@@ -1,3 +1,2 @@
-Pages\HomePage.class
-Main.class
-Pages\BasicPage.class
+pages\HomePage.class
+pages\PageHeader.class

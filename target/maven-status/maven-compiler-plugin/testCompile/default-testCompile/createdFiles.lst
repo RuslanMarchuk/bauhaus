@@ -1,4 +1,3 @@
-healthCheck\IncludeMe.class
-ui\HeaderUiTest.class
-unit\Logo.class
-healthCheck\ExcludeMe.class
+steps\PageHeaderSteps.class
+ui\LogoUiTest.class
+ui\PageHeaderUiTest.class

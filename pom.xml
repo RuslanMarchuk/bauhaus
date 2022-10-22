@@ -19,6 +19,8 @@
         <hamcrest.version>2.2</hamcrest.version>
         <jackson.version>2.13.3</jackson.version>
         <lombok.version>1.18.24</lombok.version>
+        <owner.version>1.0.4</owner.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <build>
@@ -108,9 +110,16 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.1</version>
+            <version>${junit.version}</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.aeonbits.owner</groupId>
+            <artifactId>owner</artifactId>
+            <version>${owner.version}</version>
+        </dependency>
+
 
 
     </dependencies>

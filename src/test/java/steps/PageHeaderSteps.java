@@ -4,6 +4,8 @@ import io.qameta.allure.Step;
 import org.testng.Assert;
 import pages.PageHeader;
 
+import java.time.Duration;
+
 public class PageHeaderSteps {
 
     private PageHeader pageHeader = new PageHeader();

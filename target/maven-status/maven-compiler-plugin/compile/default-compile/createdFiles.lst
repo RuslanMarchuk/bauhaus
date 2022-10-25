@@ -1,2 +1,4 @@
+properties\ProjectProperties.class
 pages\HomePage.class
 pages\PageHeader.class
+pages\TopNavigationMenu.class

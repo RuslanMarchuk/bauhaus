@@ -1,43 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-11T16:26:01 CEST" name="Regression" finished-at="2022-10-11T16:26:08 CEST" duration-ms="6218">
+  <suite started-at="2022-10-25T20:16:02 CEST" name="Regression" finished-at="2022-10-25T20:16:11 CEST" duration-ms="8511">
     <groups>
     </groups>
-    <test started-at="2022-10-11T16:26:01 CEST" name="Regression test" finished-at="2022-10-11T16:26:08 CEST" duration-ms="6218">
-      <class name="ui.LogoUiTest">
-        <test-method is-config="true" signature="startTest()[pri:0, instance:ui.LogoUiTest@bdd2027]" started-at="2022-10-11T16:26:06 CEST" name="startTest" finished-at="2022-10-11T16:26:07 CEST" duration-ms="546" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="validateLogoRedirection()[pri:0, instance:ui.LogoUiTest@bdd2027]" started-at="2022-10-11T16:26:07 CEST" name="validateLogoRedirection" finished-at="2022-10-11T16:26:08 CEST" duration-ms="735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogoRedirection -->
-      </class> <!-- ui.LogoUiTest -->
-      <class name="ui.PageHeaderUiTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:ui.PageHeaderUiTest@5f9b6ae7]" started-at="2022-10-11T16:26:01 CEST" name="start" finished-at="2022-10-11T16:26:06 CEST" duration-ms="4405" status="PASS">
+    <test started-at="2022-10-25T20:16:02 CEST" name="Regression test" finished-at="2022-10-25T20:16:11 CEST" duration-ms="8511">
+      <class name="ui.TopNavigationMenuTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:ui.TopNavigationMenuTest@3f9270ed]" started-at="2022-10-25T20:16:09 CEST" name="start" finished-at="2022-10-25T20:16:09 CEST" duration-ms="421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="logoIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@5f9b6ae7]" started-at="2022-10-11T16:26:06 CEST" name="logoIsDisplayed" finished-at="2022-10-11T16:26:06 CEST" duration-ms="173" status="PASS">
+        <test-method signature="openThirdCategoryPage()[pri:0, instance:ui.TopNavigationMenuTest@3f9270ed]" started-at="2022-10-25T20:16:09 CEST" name="openThirdCategoryPage" finished-at="2022-10-25T20:16:11 CEST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openThirdCategoryPage -->
+      </class> <!-- ui.TopNavigationMenuTest -->
+      <class name="ui.LogoUiTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:ui.LogoUiTest@14d8444b]" started-at="2022-10-25T20:16:07 CEST" name="startTest" finished-at="2022-10-25T20:16:08 CEST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="checkLogoRedirection()[pri:0, instance:ui.LogoUiTest@14d8444b]" started-at="2022-10-25T20:16:08 CEST" name="checkLogoRedirection" finished-at="2022-10-25T20:16:09 CEST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogoRedirection -->
+        <test-method signature="logoIsEnabled()[pri:0, instance:ui.LogoUiTest@14d8444b]" started-at="2022-10-25T20:16:09 CEST" name="logoIsEnabled" finished-at="2022-10-25T20:16:09 CEST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoIsEnabled -->
+        <test-method signature="logoIsVisible()[pri:0, instance:ui.LogoUiTest@14d8444b]" started-at="2022-10-25T20:16:09 CEST" name="logoIsVisible" finished-at="2022-10-25T20:16:09 CEST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoIsVisible -->
+      </class> <!-- ui.LogoUiTest -->
+      <class name="ui.PageHeaderUiTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:ui.PageHeaderUiTest@629adce]" started-at="2022-10-25T20:16:02 CEST" name="start" finished-at="2022-10-25T20:16:07 CEST" duration-ms="4399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="logoIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@629adce]" started-at="2022-10-25T20:16:07 CEST" name="logoIsDisplayed" finished-at="2022-10-25T20:16:07 CEST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoIsDisplayed -->
-        <test-method signature="miniCartButtonIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@5f9b6ae7]" started-at="2022-10-11T16:26:06 CEST" name="miniCartButtonIsDisplayed" finished-at="2022-10-11T16:26:06 CEST" duration-ms="31" status="PASS">
+        <test-method signature="miniCartButtonIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@629adce]" started-at="2022-10-25T20:16:07 CEST" name="miniCartButtonIsDisplayed" finished-at="2022-10-25T20:16:07 CEST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- miniCartButtonIsDisplayed -->
-        <test-method signature="searchFieldIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@5f9b6ae7]" started-at="2022-10-11T16:26:06 CEST" name="searchFieldIsDisplayed" finished-at="2022-10-11T16:26:06 CEST" duration-ms="25" status="PASS">
+        <test-method signature="searchFieldIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@629adce]" started-at="2022-10-25T20:16:07 CEST" name="searchFieldIsDisplayed" finished-at="2022-10-25T20:16:07 CEST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFieldIsDisplayed -->
-        <test-method signature="storeSelectorIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@5f9b6ae7]" started-at="2022-10-11T16:26:06 CEST" name="storeSelectorIsDisplayed" finished-at="2022-10-11T16:26:06 CEST" duration-ms="24" status="PASS">
+        <test-method signature="storeSelectorIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@629adce]" started-at="2022-10-25T20:16:07 CEST" name="storeSelectorIsDisplayed" finished-at="2022-10-25T20:16:07 CEST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storeSelectorIsDisplayed -->
-        <test-method signature="userAccountButtonIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@5f9b6ae7]" started-at="2022-10-11T16:26:06 CEST" name="userAccountButtonIsDisplayed" finished-at="2022-10-11T16:26:06 CEST" duration-ms="80" status="PASS">
+        <test-method signature="userAccountButtonIsDisplayed()[pri:0, instance:ui.PageHeaderUiTest@629adce]" started-at="2022-10-25T20:16:07 CEST" name="userAccountButtonIsDisplayed" finished-at="2022-10-25T20:16:07 CEST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userAccountButtonIsDisplayed -->

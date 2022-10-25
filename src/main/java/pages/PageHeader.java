@@ -16,5 +16,4 @@ public class PageHeader {
     private SelenideElement userAccountButton = $(By.cssSelector(".header .links.wrapper"));
     private SelenideElement miniCartButton = $(By.cssSelector(".minicart-wrapper.sidenav-trigger"));
     private SelenideElement logoImage = $(By.xpath("//*[@class='logo']/img"));
-    private String pageUlr = "https://dev237-bauhausfi-m2-fi.vaimo.net/";
 }

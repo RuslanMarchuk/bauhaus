@@ -10,27 +10,27 @@ public class PageHeaderSteps {
 
     private PageHeader pageHeader = new PageHeader();
 
-    @Step
+    @Step("Verify that the search field is displayed on the header")
     public void searchFieldIsDisplayed() {
         Assert.assertTrue(pageHeader.getSearchField().isDisplayed());
     }
 
-    @Step
+    @Step("Verify that the logo is displayed on the header")
     public void logoIsDisplayed(){
         Assert.assertTrue(pageHeader.getLogo().isDisplayed());
     }
 
-    @Step
+    @Step("Verify that the logo is displayed on the header")
     public void storeSelectorIsDisplayed(){
         Assert.assertTrue(pageHeader.getStoreSelector().isDisplayed());
     }
 
-    @Step
+    @Step("Verify that the user account button is displayed on the header")
     public void userAccountButtonIsDisplayed() {
         Assert.assertTrue(pageHeader.getUserAccountButton().isDisplayed());
     }
 
-    @Step
+    @Step("Verify that the mini cart button is displayed on the header")
     public void miniCartButtonIsDisplayed() {
         Assert.assertTrue(pageHeader.getMiniCartButton().isDisplayed());
     }

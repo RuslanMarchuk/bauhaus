@@ -4,6 +4,7 @@
         <classes>
             <class name="ui.PageHeaderUiTest"/>
             <class name="ui.LogoUiTest"/>
+            <class name="ui.TopNavigationMenuTest"/>
         </classes>
     </test>
 </suite>

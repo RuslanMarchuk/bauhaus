@@ -4,7 +4,14 @@
         <classes>
             <class name="ui.PageHeaderUiTest"/>
             <class name="ui.LogoUiTest"/>
-            <class name="ui.TopNavigationMenuTest"/>
+            <class name="ui.TopNavigationMenuTest">
+                <methods>
+                    <include name="navigateMegaMenuCategories"/>
+                    <include name="openThirdLevelCategoryPage"/>
+                    <include name="stickyMegaMenu"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 </suite>

@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">11 methods,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -128,12 +128,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression" title="ui.TopNavigationMenuTest" class="method navigator-link" hash-for-method="openThirdCategoryPage">openThirdCategoryPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Regression" title="ui.TopNavigationMenuTest" class="method navigator-link" hash-for-method="navigateMegaMenuCategories">navigateMegaMenuCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="ui.TopNavigationMenuTest" class="method navigator-link" hash-for-method="openThirdLevelCategoryPage">openThirdLevelCategoryPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regression" title="ui.PageHeaderUiTest" class="method navigator-link" hash-for-method="searchFieldIsDisplayed">searchFieldIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="ui.TopNavigationMenuTest" class="method navigator-link" hash-for-method="stickyMegaMenu">stickyMegaMenu</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -166,9 +176,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="openThirdCategoryPage">
-                  </a> <!-- openThirdCategoryPage -->
-                  <span class="method-name">openThirdCategoryPage</span>
+                  <a name="navigateMegaMenuCategories">
+                  </a> <!-- navigateMegaMenuCategories -->
+                  <span class="method-name">navigateMegaMenuCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openThirdLevelCategoryPage">
+                  </a> <!-- openThirdLevelCategoryPage -->
+                  <span class="method-name">openThirdLevelCategoryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stickyMegaMenu">
+                  </a> <!-- stickyMegaMenu -->
+                  <span class="method-name">stickyMegaMenu</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -259,7 +283,13 @@
     &lt;classes&gt;
       &lt;class name=&quot;ui.PageHeaderUiTest&quot;/&gt;
       &lt;class name=&quot;ui.LogoUiTest&quot;/&gt;
-      &lt;class name=&quot;ui.TopNavigationMenuTest&quot;/&gt;
+      &lt;class name=&quot;ui.TopNavigationMenuTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;navigateMegaMenuCategories&quot;/&gt;
+          &lt;include name=&quot;openThirdLevelCategoryPage&quot;/&gt;
+          &lt;include name=&quot;stickyMegaMenu&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ui.TopNavigationMenuTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regression test --&gt;
 &lt;/suite&gt; &lt;!-- Regression --&gt;
@@ -299,48 +329,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'openThirdCategoryPage')
+data.setCell(0, 1, 'openThirdLevelCategoryPage')
 data.setCell(0, 2, 'ui.TopNavigationMenuTest')
-data.setCell(0, 3, 1347);
+data.setCell(0, 3, 1574);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkLogoRedirection')
-data.setCell(1, 2, 'ui.LogoUiTest')
-data.setCell(1, 3, 899);
+data.setCell(1, 1, 'navigateMegaMenuCategories')
+data.setCell(1, 2, 'ui.TopNavigationMenuTest')
+data.setCell(1, 3, 787);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logoIsDisplayed')
-data.setCell(2, 2, 'ui.PageHeaderUiTest')
-data.setCell(2, 3, 191);
+data.setCell(2, 1, 'checkLogoRedirection')
+data.setCell(2, 2, 'ui.LogoUiTest')
+data.setCell(2, 3, 720);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'miniCartButtonIsDisplayed')
-data.setCell(3, 2, 'ui.PageHeaderUiTest')
-data.setCell(3, 3, 44);
+data.setCell(3, 1, 'stickyMegaMenu')
+data.setCell(3, 2, 'ui.TopNavigationMenuTest')
+data.setCell(3, 3, 667);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'logoIsEnabled')
-data.setCell(4, 2, 'ui.LogoUiTest')
-data.setCell(4, 3, 43);
+data.setCell(4, 1, 'logoIsDisplayed')
+data.setCell(4, 2, 'ui.PageHeaderUiTest')
+data.setCell(4, 3, 147);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'userAccountButtonIsDisplayed')
-data.setCell(5, 2, 'ui.PageHeaderUiTest')
-data.setCell(5, 3, 31);
+data.setCell(5, 1, 'logoIsEnabled')
+data.setCell(5, 2, 'ui.LogoUiTest')
+data.setCell(5, 3, 145);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'searchFieldIsDisplayed')
-data.setCell(6, 2, 'ui.PageHeaderUiTest')
-data.setCell(6, 3, 31);
+data.setCell(6, 1, 'logoIsVisible')
+data.setCell(6, 2, 'ui.LogoUiTest')
+data.setCell(6, 3, 26);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'storeSelectorIsDisplayed')
+data.setCell(7, 1, 'miniCartButtonIsDisplayed')
 data.setCell(7, 2, 'ui.PageHeaderUiTest')
-data.setCell(7, 3, 30);
+data.setCell(7, 3, 26);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'logoIsVisible')
-data.setCell(8, 2, 'ui.LogoUiTest')
-data.setCell(8, 3, 28);
+data.setCell(8, 1, 'searchFieldIsDisplayed')
+data.setCell(8, 2, 'ui.PageHeaderUiTest')
+data.setCell(8, 3, 24);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'storeSelectorIsDisplayed')
+data.setCell(9, 2, 'ui.PageHeaderUiTest')
+data.setCell(9, 3, 24);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'userAccountButtonIsDisplayed')
+data.setCell(10, 2, 'ui.PageHeaderUiTest')
+data.setCell(10, 3, 23);
 window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Regression">
               </div> <!-- times-div-Regression -->
             </div> <!-- times-div -->
@@ -373,53 +411,61 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">logoIsDisplayed</span>
-                <span class="method-start">4418 ms</span>
+                <span class="method-start">3986 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">miniCartButtonIsDisplayed</span>
-                <span class="method-start">4742 ms</span>
+                <span class="method-start">4228 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchFieldIsDisplayed</span>
-                <span class="method-start">4789 ms</span>
+                <span class="method-start">4256 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">storeSelectorIsDisplayed</span>
-                <span class="method-start">4822 ms</span>
+                <span class="method-start">4281 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">userAccountButtonIsDisplayed</span>
-                <span class="method-start">4855 ms</span>
+                <span class="method-start">4307 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ui.LogoUiTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startTest</span>
-                <span class="method-start">4887 ms</span>
+                <span class="method-start">4332 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkLogoRedirection</span>
-                <span class="method-start">5731 ms</span>
+                <span class="method-start">5059 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logoIsEnabled</span>
-                <span class="method-start">6632 ms</span>
+                <span class="method-start">5781 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logoIsVisible</span>
-                <span class="method-start">6677 ms</span>
+                <span class="method-start">5926 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ui.TopNavigationMenuTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">start</span>
-                <span class="method-start">6706 ms</span>
+                <span class="method-start">5952 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">openThirdCategoryPage</span>
-                <span class="method-start">7128 ms</span>
+                <span class="method-name">navigateMegaMenuCategories</span>
+                <span class="method-start">6350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openThirdLevelCategoryPage</span>
+                <span class="method-start">7138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stickyMegaMenu</span>
+                <span class="method-start">8714 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

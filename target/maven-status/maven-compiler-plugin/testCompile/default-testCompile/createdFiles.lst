@@ -1,6 +1,0 @@
-steps\LogoUiSteps.class
-steps\TopNavigationMenuSteps.class
-ui\TopNavigationMenuTest.class
-steps\PageHeaderSteps.class
-ui\PageHeaderUiTest.class
-ui\LogoUiTest.class

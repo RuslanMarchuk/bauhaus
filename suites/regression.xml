@@ -2,7 +2,16 @@
 <suite name="Regression">
     <test name="Regression test">
         <classes>
-            <class name="healthCheck.IncludeMe"/>
+            <class name="ui.PageHeaderUiTest"/>
+            <class name="ui.LogoUiTest"/>
+            <class name="ui.TopNavigationMenuTest">
+                <methods>
+                    <include name="navigateMegaMenuCategories"/>
+                    <include name="openThirdLevelCategoryPage"/>
+                    <include name="stickyMegaMenu"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 </suite>
